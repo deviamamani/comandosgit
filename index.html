@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>----------BOTANICA VERDE---------</title>
+    <title>BOTÁNICA VERDE</title>
 
     <style>
         * {
@@ -16,6 +16,7 @@
             font-family: Arial, sans-serif;
             background-color: #f4f7f2;
             color: #333;
+            font-weight: bold;
         }
 
         header {
@@ -28,10 +29,14 @@
         header h1 {
             font-size: 38px;
             margin-bottom: 8px;
+            text-transform: uppercase;
+            font-weight: bold;
         }
 
         header p {
             font-size: 18px;
+            text-transform: uppercase;
+            font-weight: bold;
         }
 
         nav {
@@ -45,13 +50,14 @@
             text-decoration: none;
             margin: 0 20px;
             font-size: 17px;
+            text-transform: uppercase;
+            font-weight: bold;
         }
 
         nav a:hover {
             color: #b7e4c7;
         }
 
-        /* CARRUSEL */
         .carrusel {
             position: relative;
             width: 100%;
@@ -72,7 +78,7 @@
             transform: translate(-50%, -50%);
             text-align: center;
             color: white;
-            background: rgba(0,0,0,0.45);
+            background: rgba(0, 0, 0, 0.45);
             padding: 30px;
             border-radius: 12px;
             width: 80%;
@@ -81,13 +87,16 @@
         .texto-carrusel h2 {
             font-size: 42px;
             margin-bottom: 15px;
+            text-transform: uppercase;
+            font-weight: bold;
         }
 
         .texto-carrusel p {
             font-size: 20px;
+            text-transform: uppercase;
+            font-weight: bold;
         }
 
-        /* CONTENIDO */
         .contenido {
             max-width: 1100px;
             margin: 40px auto;
@@ -99,15 +108,18 @@
             color: #174d32;
             font-size: 32px;
             margin-bottom: 15px;
+            text-transform: uppercase;
+            font-weight: bold;
         }
 
         .descripcion {
             text-align: center;
             font-size: 18px;
             margin-bottom: 35px;
+            text-transform: uppercase;
+            font-weight: bold;
         }
 
-        /* TARJETAS */
         .tarjetas {
             display: grid;
             grid-template-columns: repeat(3, 1fr);
@@ -118,7 +130,7 @@
             background-color: white;
             border-radius: 12px;
             overflow: hidden;
-            box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
             transition: transform 0.3s;
         }
 
@@ -139,11 +151,15 @@
         .tarjeta h3 {
             color: #174d32;
             margin-bottom: 10px;
+            text-transform: uppercase;
+            font-weight: bold;
         }
 
         .tarjeta p {
             line-height: 1.5;
             margin-bottom: 15px;
+            text-transform: uppercase;
+            font-weight: bold;
         }
 
         .boton {
@@ -153,6 +169,8 @@
             padding: 10px 18px;
             border-radius: 6px;
             text-decoration: none;
+            text-transform: uppercase;
+            font-weight: bold;
         }
 
         .boton:hover {
@@ -165,6 +183,12 @@
             text-align: center;
             padding: 25px;
             margin-top: 40px;
+        }
+
+        footer p {
+            text-transform: uppercase;
+            font-weight: bold;
+            margin: 5px;
         }
 
         @media (max-width: 768px) {
@@ -196,38 +220,39 @@
 <body>
 
     <header>
-        <h1>🌿 Botánica Verde</h1>
-        <p>Descubre la belleza de la naturaleza</p>
+        <h1>🌿 BOTÁNICA VERDE</h1>
+        <p>DESCUBRE LA BELLEZA DE LA NATURALEZA</p>
     </header>
 
     <nav>
-        <a href="#">Inicio</a>
-        <a href="#jardin">Jardín</a>
-        <a href="#plantas">Plantas</a>
-        <a href="#contacto">Contacto</a>
+        <a href="#">INICIO</a>
+        <a href="#jardin">JARDÍN</a>
+        <a href="#plantas">PLANTAS</a>
+        <a href="#contacto">CONTACTO</a>
     </nav>
 
     <section class="carrusel">
 
         <img src="https://images.unsplash.com/photo-1441974231531-c6227db76b6e"
-             alt="Bosque">
+             alt="BOSQUE">
 
         <div class="texto-carrusel">
-            <h2>Explora la naturaleza</h2>
+            <h2>EXPLORA LA NATURALEZA</h2>
             <p>
-                Un lugar donde las plantas, los árboles y las flores
-                crean un espacio lleno de vida.
+                UN LUGAR DONDE LAS PLANTAS, LOS ÁRBOLES Y LAS FLORES
+                CREAN UN ESPACIO LLENO DE VIDA.
             </p>
         </div>
 
     </section>
+
     <section class="contenido" id="jardin">
 
-        <h2>🌱 Nuestro Jardín Botánico</h2>
+        <h2>🌱 NUESTRO JARDÍN BOTÁNICO</h2>
 
         <p class="descripcion">
-            Conoce diferentes especies de plantas y descubre
-            la importancia de cuidar nuestro medio ambiente.
+            CONOCE DIFERENTES ESPECIES DE PLANTAS Y DESCUBRE
+            LA IMPORTANCIA DE CUIDAR NUESTRO MEDIO AMBIENTE.
         </p>
 
         <div class="tarjetas">
@@ -235,61 +260,59 @@
             <div class="tarjeta">
 
                 <img src="https://images.unsplash.com/photo-1497250681960-ef046c08a56e"
-                     alt="Plantas verdes">
+                     alt="PLANTAS VERDES">
 
                 <div class="tarjeta-contenido">
 
-                    <h3>Plantas Verdes</h3>
+                    <h3>PLANTAS VERDES</h3>
 
                     <p>
-                        Las plantas ayudan a mantener el equilibrio
-                        de nuestro ecosistema y producen oxígeno.
+                        LAS PLANTAS AYUDAN A MANTENER EL EQUILIBRIO
+                        DE NUESTRO ECOSISTEMA Y PRODUCEN OXÍGENO.
                     </p>
 
-                    <a href="#" class="boton">Ver más</a>
+                    <a href="#" class="boton">VER MÁS</a>
 
                 </div>
 
             </div>
-
 
             <div class="tarjeta">
 
                 <img src="https://images.unsplash.com/photo-1490750967868-88aa4486c946"
-                     alt="Flores">
+                     alt="FLORES">
 
                 <div class="tarjeta-contenido">
 
-                    <h3>Flores</h3>
+                    <h3>FLORES</h3>
 
                     <p>
-                        Las flores aportan color y belleza,
-                        además de ser importantes para muchos
-                        insectos y animales.
+                        LAS FLORES APORTAN COLOR Y BELLEZA,
+                        ADEMÁS DE SER IMPORTANTES PARA MUCHOS
+                        INSECTOS Y ANIMALES.
                     </p>
 
-                    <a href="#" class="boton">Ver más</a>
+                    <a href="#" class="boton">VER MÁS</a>
 
                 </div>
 
             </div>
 
-
             <div class="tarjeta">
 
                 <img src="https://images.unsplash.com/photo-1513836279014-a89f7a76ae86"
-                     alt="Árboles">
+                     alt="ÁRBOLES">
 
                 <div class="tarjeta-contenido">
 
-                    <h3>Árboles</h3>
+                    <h3>ÁRBOLES</h3>
 
                     <p>
-                        Los árboles proporcionan sombra, oxígeno
-                        y ayudan a proteger nuestros ecosistemas.
+                        LOS ÁRBOLES PROPORCIONAN SOMBRA, OXÍGENO
+                        Y AYUDAN A PROTEGER NUESTROS ECOSISTEMAS.
                     </p>
 
-                    <a href="#" class="boton">Ver más</a>
+                    <a href="#" class="boton">VER MÁS</a>
 
                 </div>
 
@@ -299,22 +322,21 @@
 
     </section>
 
-    <!-- CONTACTO -->
     <section class="contenido" id="contacto">
 
-        <h2>🌎 Cuidemos nuestro planeta</h2>
+        <h2>🌎 CUIDEMOS NUESTRO PLANETA</h2>
 
         <p class="descripcion">
-            La naturaleza es responsabilidad de todos.
-            Pequeñas acciones pueden generar grandes cambios.
+            LA NATURALEZA ES RESPONSABILIDAD DE TODOS.
+            PEQUEÑAS ACCIONES PUEDEN GENERAR GRANDES CAMBIOS.
         </p>
 
     </section>
 
     <footer>
 
-        <p>© 2026 Botánica Verde</p>
-        <p>Proyecto académico</p>
+        <p>© 2026 BOTÁNICA VERDE</p>
+        <p>PROYECTO ACADÉMICO</p>
 
     </footer>
 
